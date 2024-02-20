@@ -1,0 +1,13 @@
+function Footer() {
+    return (
+        <>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </>
+    )
+}
+
+export default Footer
