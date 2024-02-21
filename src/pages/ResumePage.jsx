@@ -1,7 +1,7 @@
 export default function ResumePage() {
     return (
         <div className="resume">
-            <p>Download my <span><a href="./src/assets/david_brush_resume.pdf" target="_blank">Resume</a></span></p>
+            <p>Download my <span><a href="./david_brush_resume.pdf" target="_blank">Resume</a></span></p>
             <div className='skill'>
                 <h2>Front-End Proficiencies</h2>
                 <p>HTML</p>

@@ -5,32 +5,32 @@ export default function Project() {
         {
             sourceCode: 'https://github.com/coldnebraska/brushstrokes',
             liveApp: 'https://brushconsult.com',
-            image: './src/assets/images/brushstrokes.png'
+            image: './images/brushstrokes.png'
         },
         {
             sourceCode: 'https://github.com/coldnebraska/gig-of-bands',
             liveApp: 'https://gig-of-bandz-25bf9a236ebe.herokuapp.com',
-            image: './src/assets/images/gig-for-bands.png'
+            image: './images/gig-for-bands.png'
         },
         {
             sourceCode: 'https://github.com/coldnebraska/travel-planner',
             liveApp: 'https://coldnebraska.github.io/travel-planner/',
-            image: './src/assets/images/travel-planner.png'
+            image: './images/travel-planner.png'
         },
         {
             sourceCode: 'https://github.com/coldnebraska/weather-dashboard',
             liveApp: 'https://coldnebraska.github.io/weather-dashboard/',
-            image: './src/assets/images/weather.png'
+            image: './images/weather.png'
         },
         {
             sourceCode: 'https://github.com/coldnebraska/code-quiz',
             liveApp: 'https://coldnebraska.github.io/code-quiz/',
-            image: './src/assets/images/code-quiz.png'
+            image: './images/code-quiz.png'
         },
         {
             sourceCode: 'https://github.com/coldnebraska/css-test-page',
             liveApp: 'https://coldnebraska.github.io/css-test-page/',
-            image: './src/assets/images/horiseon.png'
+            image: './images/horiseon.png'
         },
     ]
 
