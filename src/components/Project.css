@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    gap: 1rem;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    align-items: center;
+    background-color: #716a5c63;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 95%;
+    height: 100%;
+}
+
+.container-header {
+    text-align: center;
+}
+
+.links {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: .5rem 0;
+}
