@@ -1,16 +1,23 @@
-function Header() {
+import { Link } from 'react-router-dom'
+import Navbar from './UI/Navbar'
+
+export default function Header() {
     return (
-        <>
-            <h1>David Brush</h1>
-            
-            <ul>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Resume</a></li>
-            </ul>
-        </>
+        <Navbar
+            links={[
+                <Link key={1} to="/">
+                    About Me
+                </Link>,
+                <Link key={2} to="/portfolio">
+                    Portfolio
+                </Link>,
+                <Link key={3} to="/contact">
+                    Contact
+                </Link>,
+                <Link key={4} to="/resume">
+                    Resume
+                </Link>
+            ]}
+        />
     )
 }
-
-export default Header
