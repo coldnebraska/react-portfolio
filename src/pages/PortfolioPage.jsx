@@ -1,9 +1,12 @@
 import Project from '../components/Project'
+import '../components/Project.css'
 
 export default function PortfolioPage() {
     return (
         <>
-            <h1>Portfolio</h1>
+            <div className='container-header'>
+                <h1>Portfolio</h1>
+            </div>
             <Project />
         </>
     )

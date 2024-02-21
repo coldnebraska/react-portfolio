@@ -50,7 +50,7 @@ export default function ContactPage() {
     }
 
     return (
-        <div className="container text-center">
+        <div className="contact">
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                 id='email'
