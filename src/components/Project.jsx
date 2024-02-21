@@ -1,3 +1,5 @@
+import './Project.css'
+
 export default function Project() {
     const projects = [
         {
@@ -37,38 +39,50 @@ export default function Project() {
             <li>
                 <h1>BrushStrokes</h1>
                 <img src={projects[0].image}></img>
-                <a href={projects[0].liveApp}>Live Application</a>
-                <a href={projects[0].sourceCode}>Source Code</a>
+                <div className='links'>
+                    <a href={projects[0].liveApp}>Live Application</a>
+                    <a href={projects[0].sourceCode}>Source Code</a>
+                </div>
             </li>
             <li>
                 <h1>Gigs for Bands</h1>
                 <img src={projects[1].image}></img>
-                <a href={projects[1].liveApp}>Live Application</a>
-                <a href={projects[1].sourceCode}>Source Code</a>
+                <div className='links'>
+                    <a href={projects[1].liveApp}>Live Application</a>
+                    <a href={projects[1].sourceCode}>Source Code</a>
+                </div>
             </li>
             <li>
                 <h1>Travel Planner</h1>
                 <img src={projects[2].image}></img>
-                <a href={projects[2].liveApp}>Live Application</a>
-                <a href={projects[2].sourceCode}>Source Code</a>
+                <div className='links'>
+                    <a href={projects[2].liveApp}>Live Application</a>
+                    <a href={projects[2].sourceCode}>Source Code</a>
+                </div>
             </li>
             <li>
                 <h1>Weather Dashboard</h1>
                 <img src={projects[3].image}></img>
-                <a href={projects[3].liveApp}>Live Application</a>
-                <a href={projects[3].sourceCode}>Source Code</a>
+                <div className='links'>
+                    <a href={projects[3].liveApp}>Live Application</a>
+                    <a href={projects[3].sourceCode}>Source Code</a>
+                </div>
             </li>
             <li>
                 <h1>Code Quiz</h1>
                 <img src={projects[4].image}></img>
-                <a href={projects[4].liveApp}>Live Application</a>
-                <a href={projects[4].sourceCode}>Source Code</a>
+                <div className='links'>
+                    <a href={projects[4].liveApp}>Live Application</a>
+                    <a href={projects[4].sourceCode}>Source Code</a>
+                </div>
             </li>
             <li>
                 <h1>Horiseon</h1>
                 <img src={projects[5].image}></img>
-                <a href={projects[5].liveApp}>Live Application</a>
-                <a href={projects[5].sourceCode}>Source Code</a>
+                <div className='links'>
+                    <a href={projects[5].liveApp}>Live Application</a>
+                    <a href={projects[5].sourceCode}>Source Code</a>
+                </div>
             </li>
         </ul>
     )
